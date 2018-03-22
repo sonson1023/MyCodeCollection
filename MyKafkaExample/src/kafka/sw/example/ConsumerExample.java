@@ -13,8 +13,8 @@ import kafka.message.MessageAndMetadata;
  
 public class ConsumerExample {
 	private static final String TOPIC = "test";
-	private static final int NUM_THREADS = 20;
-
+	private static final int NUM_THREADS = 30;
+ 
 	public static void main(String[] args) throws Exception {
 		Properties props = new Properties();
 		props.put("group.id", "test-group");
